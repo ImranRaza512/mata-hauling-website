@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mata Hauling</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { line-height: 1.6; color: #333; background: #f8f9fa; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header { background: #1a3a5f; color: white; padding: 15px 0; }
+        .header-container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .logo-img { width: 50px; height: 50px; background: #ff9900; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+        nav ul { display: flex; list-style: none; gap: 20px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #ff9900; }
+        
+        /* Contact */
+        .contact { padding: 60px 0; }
+        .section-title { text-align: center; margin-bottom: 40px; color: #1a3a5f; font-size: 32px; }
+        
+        /* Contact Form */
+        .contact-container { display: flex; flex-wrap: wrap; gap: 30px; margin-top: 30px; }
+        .contact-form, .contact-info { flex: 1; min-width: 300px; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+        .btn { display: inline-block; background: #ff9900; color: white; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; border: none; cursor: pointer; width: 100%; }
+        .btn:hover { background: #e68a00; }
+        
+        /* Contact Info */
+        .details-list { list-style: none; }
+        .details-list li { padding: 15px 0; border-bottom: 1px solid #eee; }
+        
+        /* Footer */
+        footer { background: #1a3a5f; color: white; padding: 40px 0; text-align: center; }
+        
+        @media (max-width: 768px) { .header-container { flex-direction: column; } nav ul { margin-top: 15px; } }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-img">MH</div>
+                <div>
+                    <h1>Mata Hauling</h1>
+                    <p>Professional Dispatch Services</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p style="text-align: center; margin-bottom: 30px;">Get in touch for professional dispatch services</p>
+            
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3 style="color: #1a3a5f; margin-bottom: 20px;">Send Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="tel">
+                        </div>
+                        <div class="form-group">
+                            <label>Service Needed</label>
+                            <select>
+                                <option>Select Service</option>
+                                <option>Full Dispatch Services</option>
+                                <option>Route Planning</option>
+                                <option>Driver Management</option>
+                                <option>Invoice Processing</option>
+                                <option>Other Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Message</label>
+                            <textarea rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3 style="color: #1a3a5f; margin-bottom: 20px;">Contact Information</h3>
+                    <ul class="details-list">
+                        <li><strong>Owner:</strong> Imran Raza</li>
+                        <li><strong>Business:</strong> Mata Hauling</li>
+                        <li><strong>Address:</strong> 217 Sunflower Bahria Nasheman, Lahore 54000, Pakistan</li>
+                        <li><strong>Phone:</strong> 03017081849</li>
+                        <li><strong>Email:</strong> contact@matahauling.com</li>
+                        <li><strong>Services:</strong> 24/7 Dispatch Support</li>
+                    </ul>
+                    
+                    <div style="margin-top: 30px; padding: 20px; background: #f0f7ff; border-radius: 8px;">
+                        <h4 style="color: #1a3a5f; margin-bottom: 15px;">Service Hours</h4>
+                        <p>• Monday-Friday: 9 AM - 6 PM (PKT)</p>
+                        <p>• Saturday: 10 AM - 4 PM (PKT)</p>
+                        <p>• Sunday: Closed</p>
+                        <p>• Emergency Dispatch: 24/7 Available</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quick Response Note -->
+            <div style="margin-top: 40px; text-align: center; padding: 20px; background: #e8f4ff; border-radius: 8px;">
+                <h4 style="color: #1a3a5f; margin-bottom: 10px;">Quick Response Guarantee</h4>
+                <p>We respond to all inquiries within 24 hours. For urgent dispatch needs, call directly at 03017081849.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Mata Hauling • Professional Dispatch Services</p>
+            <p>Lahore, Pakistan • 03017081849</p>
+            <p style="margin-top: 20px;">© 2023 Mata Hauling. All rights reserved. Owner: Imran Raza</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Simple form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you! Your message has been sent. We will contact you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
