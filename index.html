@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata Hauling - Professional Dispatch Services</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { line-height: 1.6; color: #333; background: #f8f9fa; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header { background: #1a3a5f; color: white; padding: 15px 0; }
+        .header-container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; }
+        .logo-img { width: 50px; height: 50px; background: #ff9900; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+        nav ul { display: flex; list-style: none; gap: 20px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #ff9900; }
+        
+        /* Hero */
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'); background-size: cover; color: white; padding: 80px 0; text-align: center; }
+        .hero h2 { font-size: 36px; margin-bottom: 20px; }
+        .btn { display: inline-block; background: #ff9900; color: white; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 20px; }
+        
+        /* Services */
+        .services { padding: 60px 0; }
+        .section-title { text-align: center; margin-bottom: 40px; color: #1a3a5f; font-size: 32px; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .service-card { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .service-card h3 { color: #1a3a5f; margin-bottom: 15px; }
+        
+        /* Footer */
+        footer { background: #1a3a5f; color: white; padding: 40px 0; text-align: center; }
+        @media (max-width: 768px) { .header-container { flex-direction: column; } nav ul { margin-top: 15px; } }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-img">MH</div>
+                <div>
+                    <h1>Mata Hauling</h1>
+                    <p>Professional Dispatch Services</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Professional Truck Dispatch Services for USA Carriers</h2>
+            <p>24/7 Dispatch • Route Planning • Driver Management • Invoice Processing</p>
+            <a href="contact.html" class="btn">Get Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Dispatch Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>📊 Route Planning & Optimization</h3>
+                    <p>We create efficient routes that save fuel costs and reduce delivery times for carriers across all 50 states.</p>
+                </div>
+                <div class="service-card">
+                    <h3>👨‍✈️ Driver Schedule Management</h3>
+                    <p>Professional management of driver schedules ensuring compliance with hours-of-service regulations.</p>
+                </div>
+                <div class="service-card">
+                    <h3>💰 Invoice & Billing Management</h3>
+                    <p>Complete invoicing, payment tracking, and accounts receivable management for your trucking business.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🚚 24/7 Dispatch Operations</h3>
+                    <p>Round-the-clock dispatch support to keep your trucks moving and business running smoothly.</p>
+                </div>
+                <div class="service-card">
+                    <h3>📈 Load Board Management</h3>
+                    <p>Finding the best loads for your trucks to maximize profitability and minimize empty miles.</p>
+                </div>
+                <div class="service-card">
+                    <h3>📋 Documentation & Compliance</h3>
+                    <p>Managing all necessary documentation and ensuring regulatory compliance for your operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section style="padding: 60px 0; background: #f0f7ff;">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h2 style="color: #1a3a5f; margin-bottom: 20px;">About Mata Hauling</h2>
+                    <p style="margin-bottom: 15px;">Mata Hauling provides professional dispatch services for carriers operating in the United States. With years of experience in transportation logistics, we help trucking companies optimize their operations and increase profitability.</p>
+                    <p style="margin-bottom: 15px;">Our team manages all aspects of carrier dispatch, from planning efficient routes to handling invoices and ensuring compliance. We keep your trucks moving while you focus on growing your business.</p>
+                    <a href="about.html" class="btn">Learn More About Us</a>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <div style="background: #1a3a5f; color: white; padding: 30px; border-radius: 10px;">
+                        <h3 style="color: #ff9900; margin-bottom: 20px;">Why Choose Us?</h3>
+                        <p>✓ 24/7 Dispatch Support</p>
+                        <p>✓ Experienced Professionals</p>
+                        <p>✓ Cost-Effective Solutions</p>
+                        <p>✓ Personalized Service</p>
+                        <p>✓ Fast Response Time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Mata Hauling • Professional Dispatch Services</p>
+            <p>Lahore, Pakistan • 03017081849</p>
+            <p style="margin-top: 20px;">© 2023 Mata Hauling. All rights reserved. Owner: Imran Raza</p>
+        </div>
+    </footer>
+</body>
+</html>
